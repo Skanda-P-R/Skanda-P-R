@@ -53,7 +53,7 @@
 
 <div align="center">
   
-### ✨ Random Dev Quote ✨
+### ✨ Bytes of Inspiration ✨
 ![Random Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
