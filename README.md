@@ -5,7 +5,7 @@
 
 ## 🌟 About Me
 - 👨‍💻 Currently deepening my knowledge in Web Design
-- 💡 Specialized in AI/ML and Python Development
+- 💡 Exploring AI/ML and Python development, with hands-on experience in projects and related work
 - 📫 Reach me at: skandapr9@gmail.com
 
 ## 🌍 Connect with Me
