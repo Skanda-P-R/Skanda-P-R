@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Skanda P R 👋
+# Hi, I'm [Skanda P R](https://skanda-p-r.github.io/Skanda-P-R/) 👋
 
 ### Software Engineer · Full-Stack · Backend · AI/ML
 ### B.E. Computer Science · RVCE Bengaluru · 9.55 CGPA · Class of 2026
