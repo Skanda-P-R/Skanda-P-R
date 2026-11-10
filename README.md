@@ -42,6 +42,7 @@ Production-grade, distributed URL shortening service engineered for high through
 - **Non-Sequential IDs & Base62**: Generates cryptographically secure 63-bit IDs mapped to Base62 slugs, preventing scraping and sequential enumeration attacks.
 - **Cache-Aside Architecture**: Multi-tier read pipeline serving redirects directly from Redis in sub-milliseconds with automated PostgreSQL fallback and cache pre-warming.
 - **URL Deduplication**: Enforces idempotency via unique B-Tree constraints, eliminating redundant storage across duplicate submissions.
+- **Automated QR Engine**: On-demand PNG QR code generation with direct image downloads.
 - **Full-Stack Deployment**: Async ASGI backend deployed on Render, paired with a responsive GitHub Pages client featuring instant clipboard copy and tab launch controls.
 
 ---
