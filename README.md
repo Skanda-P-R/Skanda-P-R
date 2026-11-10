@@ -36,6 +36,16 @@ A complete, independently-built product across three repos:
 
 ---
 
+### 🔗 [High-Performance URL Shortener](https://github.com/Skanda-P-R/URL-Shortner)
+> FastAPI · PostgreSQL · Redis · Base62 · Docker · Python 3.13 · [Live App ↗](https://skanda-p-r.github.io/URL-Shortner/)
+Production-grade, distributed URL shortening service engineered for high throughput and sub-millisecond redirects:
+- **Non-Sequential IDs & Base62**: Generates cryptographically secure 63-bit IDs mapped to Base62 slugs, preventing scraping and sequential enumeration attacks.
+- **Cache-Aside Architecture**: Multi-tier read pipeline serving redirects directly from Redis in sub-milliseconds with automated PostgreSQL fallback and cache pre-warming.
+- **URL Deduplication**: Enforces idempotency via unique B-Tree constraints, eliminating redundant storage across duplicate submissions.
+- **Full-Stack Deployment**: Async ASGI backend deployed on Render, paired with a responsive GitHub Pages client featuring instant clipboard copy and tab launch controls.
+
+---
+
 ### 🤖 [Multi-Agent Reasoning — DPR](https://github.com/Skanda-P-R/Multi-Agent-Reasoning)
 > Flask · LLM Orchestration · Multi-Agent Systems
 
@@ -78,7 +88,7 @@ Turns any phone browser into a wireless trackpad + full keyboard for your PC:
 ```
 Languages      Python  Java  C/C++  TypeScript  JavaScript  SQL  Kotlin
 Frontend       React  Oracle JET/VBCS  AngularJS  HTML5  CSS3  TailwindCSS
-Backend        Flask  REST API Design  MySQL  MongoDB  HPCC Systems / Roxie
+Backend        Flask  FastAPI  REST API Design  MySQL  MongoDB  HPCC Systems / Roxie
 Mobile         Android (Kotlin)  Home Screen Widgets  Localization
 Cloud & Tools  OCI  AWS  Git  Postman  VS Code
 AI / ML        Machine Learning  NLP / NER  NeRF  LLM Orchestration  Codex  Claude MCP
